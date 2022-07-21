@@ -11,12 +11,20 @@ Hướng dẫn cấu hình vài khởi chạy dự án
  3. FVM - Quản lý flutter sdk version - https://fvm.app
 
 ***Khởi chạy***
-Bước 1: Khởi chạy "fvm flutter pub get"
-Bước 2: Ở đây có thể bắt đầu khởi chạy kiểm thử hoặc chạy dự án trên thiết bị android
+
+ Bước 1: 
+	
+  Khởi chạy "fvm flutter pub get"
+		
+ Bước 2: 
+    Ở đây có thể bắt đầu khởi chạy kiểm thử hoặc chạy dự án trên thiết bị android
+				
     Bước 2.a: Khởi chạy kiểm thử
+				
         + Unit test: Khởi chạy "fvm flutter test test/models/task_test.dart"
         + Widget test: Khởi chạy "fvm flutter test test/create_todo_widget_test.dart"
         + Integration test: Khởi chạy "fvm flutter test test/test_integration.dart"
         + Chạy toàn bộ test: Khỏi chạy "fvm flutter test"
-    Bước 2.b: Khởi chạy dự án trên máy ảo/thật (Lưu ý: nhớ tạo máy ảo hoặc kết nối máy thật)
+								
+    Bước 2.b: Khởi chạy dự án trên máy ảo/thật (Lưu ý: nhớ tạo máy ảo hoc kết nối máy thật)
         + Khởi chạy "fvm flutter run"
